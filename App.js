@@ -14,6 +14,7 @@ const Stack = createStackNavigator();
 
 const App:  () => React$Node = () =>{
   return (
+    
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Login">
         <Stack.Screen 
