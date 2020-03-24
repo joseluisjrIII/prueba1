@@ -2,6 +2,7 @@ import {Alert} from 'react-native';
 
 const URL_DATA = 'http://192.168.0.1/formulario/data/';
 
+
 class API {
 
     async validarLog(user, pass){
