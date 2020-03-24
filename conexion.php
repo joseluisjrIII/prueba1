@@ -7,7 +7,7 @@
                     or die( "Conexion fallida " . mysql_error() );
 
             mysqli_select_db( $this->conn, "react" )
-                or die( "error no conecta" );
+                or die( "Error!!" );
 
             return $this->conn;
         }
@@ -34,7 +34,7 @@
             $this->conectar();
 
             if( !$this->conn ){
-                exit( "Error" );
+                exit( "Error!" );
             }
             else{
                 $result = mysqli_query( $this->conn, $consulta );
