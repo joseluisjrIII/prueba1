@@ -12,7 +12,7 @@
     $email = $jsonObj["pEmail"];
     $user = $jsonObj["pUser"];
     $pass = $jsonObj["pPass"];
-
+ 
     $consulta = "INSERT INTO usuario(usuario, pass, correo)
                         VALUES ('" .$user . "',
                                 '" .$pass . "',
